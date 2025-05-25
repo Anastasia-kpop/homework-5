@@ -25,3 +25,37 @@ header {
 body {
     background-color: rgb(241, 241, 241);
 }
+
+.H {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.widget {
+    display: flex;
+}
+
+.i2 {
+position: relative;
+}
+
+.p {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+    vertical-align: bottom;
+}
+
+span {
+    color:#8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.ii {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+}

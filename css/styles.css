@@ -14,9 +14,14 @@ header {
     display: flex;
     margin-left: 66px;
     margin-top: 20px;
+    align-items: center;
 }
 
 .nav1 li {
     display: inline;
     margin: 20px;
   }
+
+body {
+    background-color: rgb(241, 241, 241);
+}

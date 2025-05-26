@@ -32,25 +32,36 @@ body {
     color: #000000;
 }
 
-.widget {
+.d {
     display: flex;
+    position: relative;
+    width: 362px;
 }
 
 .i2 {
-position: relative;
+    position: absolute;
+    
 }
 
 .p {
     color: #8A8787;
     font-size: 10px;
     font-weight: 700;
-    vertical-align: bottom;
+    margin-top: 190px;
+    position: absolute;
+    width: 362px;
+    height: 171px;
+    background-color: #FFFFFF;
+    line-height: 500%;
 }
 
 span {
     color:#8A8787;
     font-size: 10px;
     font-weight: 700;
+    margin-top: 310px;
+    position: absolute;
+    margin-left: 30px;
 }
 
 .ii {
@@ -58,4 +69,31 @@ span {
     font-weight: 700;
     color: #FFFFFF;
     position: absolute;
+}
+
+.widget {
+    width: 362px;
+    height: 370px;
+}
+
+.pc {
+    margin-top: 310px;
+    position: absolute;
+    margin-right: 10px;
+}
+
+section .widget {
+    display: flex;
+}
+
+.p1 {
+    width: 750px;
+    height: 430px;
+    display: inline-block;
+}
+
+.images-right-side {
+    height: 212px;
+    width: 362px;
+    display: inline-block;
 }

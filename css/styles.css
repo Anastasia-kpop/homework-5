@@ -30,6 +30,8 @@ body {
     font-size: 24px;
     font-weight: 700;
     color: #000000;
+    margin: 66px;
+    width:0px;
 }
 
 .d {
@@ -90,10 +92,65 @@ section .widget {
     width: 750px;
     height: 430px;
     display: inline-block;
+    margin-bottom: 70px;
 }
 
 .images-right-side {
     height: 212px;
     width: 362px;
     display: inline-block;
+    margin: 66px;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+
+.s2 {
+    display: flex;
+}
+
+.images-left-side {
+    margin-top: 200px;
+}
+
+.i3 {
+    margin-bottom: 90px;
+}
+
+.p2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    margin: auto;
+}
+
+.p1-2 {
+position: relative;
+}
+
+footer li {
+    color: #818687;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+footer div {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 66px;
+    margin-top: 40px;
+    line-height: 200%;
+}
+
+footer p {
+    display: inline-block;
+    margin-right: 600px;
+    color: #FFFFFF
+}
+
+footer {
+    background-color: #243043;
+    width: 100%;
+    height: 201px;
+    margin: 0 auto;
 }

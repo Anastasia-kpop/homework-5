@@ -76,6 +76,9 @@ span {
 .widget {
     width: 362px;
     height: 370px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 66px;
 }
 
 .pc {
@@ -84,8 +87,8 @@ span {
     margin-right: 10px;
 }
 
-section .widget {
-    display: flex;
+.d {
+    position: relative;
 }
 
 .p1 {
@@ -122,6 +125,7 @@ section .widget {
     font-weight: 700;
     position: absolute;
     margin: auto;
+    top: 0;
 }
 
 .p1-2 {
